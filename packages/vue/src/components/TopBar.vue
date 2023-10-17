@@ -41,7 +41,7 @@
       </base-dropdown>
 
       <div class="hidden whitespace-nowrap gap-2 sm:flex w-min">
-        <option-field minimal label="Show Owned">
+        <option-field minimal label="">
           <!-- <base-switch v-model="state.settings.general.show_owned" /> -->
         </option-field>
         <option-field minimal label="Online Only">
