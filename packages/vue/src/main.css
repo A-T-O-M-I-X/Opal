@@ -1,0 +1,119 @@
+.theme-dark {
+  --color-primary-300: 173,133,255;          /* #ad85ff */       /* Main Color */
+  --color-primary-400: 131,69,255;          /* #8345ff */
+  --color-primary-500: 86,3,252;           /* #5603fc */
+
+  --color-background-200: 11,14,19;          /* #0b0e13 */
+  --color-background-300: 15,19,25;          /* #0F1319 */
+  --color-background-400: 24,29,37;          /* #181D25 */
+  --color-background-500: 35,41,49;          /* #232931 */
+  --color-background-600: 42,48,56;          /* #2A3038 */
+
+  --color-tooltip-background: 255, 255, 255; /* #ffffff */
+  --color-tooltip-text: 1,4,9;               /* #010409 */
+
+  --color-text: 255, 255, 255;               /* #ffffff */
+  --color-caution: 255, 0, 122;              /* #ff007a */
+  --color-warning: 255,168,0;                /* #FFA800 */
+  --color-active: 0,255,103;                 /* #00ff67 */
+  
+  --color-docker: 13,198,255;           /* #0dc6ff */
+  --color-firewall: 235,79,52;           /* #eb4f34 */
+
+  --color-100mbps: var(--color-warning);
+  --color-1000mbps: var(--color-active);
+  --color-10000mbps: 0,255,238;              /* #00ffee */ 
+  --color-100000mbps: 187,255,255;           /* #e5ffff */ 
+}
+
+.theme-nord {
+  --color-primary-300: 129,161,193;          /* #81a1c1 */       /* Main Color */
+  --color-primary-400: 129,161,193;          /* #81A1C1 */
+  --color-primary-500: 94,129,172;           /* #5E81AC */
+
+  --color-background-200: 46,52,64;          /* #2E3440 */ 
+  --color-background-300: 59,66,82;          /* #3B4252 */
+  --color-background-400: 67,76,94;          /* #434C5E */
+  --color-background-500: 31,35,43;          /* #1f232b */
+  --color-background-600: 46,52,64;          /* #2E3440 */
+
+  --color-tooltip-background: 73,83,102;     /* #495366 */
+  --color-tooltip-text: 129,161,193;         /* #81A1C1 */
+
+  --color-text: 136,192,208;                 /* #88C0D0 */
+  --color-caution: 191,97,106;               /* #BF616A */
+  --color-active: 163,190,140;               /* #A3BE8C */
+  --color-warning: 235,203,139;              /* #EBCB8B */
+
+  --color-docker: 13,198,255;           /* #0dc6ff */
+  --color-firewall: 235,79,52;           /* #eb4f34 */
+
+  --color-100mbps: var(--color-warning);
+  --color-1000mbps: var(--color-active);
+  --color-10000mbps: var(--color-text);
+  --color-100000mbps: 236,239,244;           /* #ECEFF4 */ 
+}
+
+.theme-opera {
+  --color-primary-300: 194,153,255;           /* #c299ff */       /* Main Color */
+  --color-primary-400: 183,135,255;           /* #b787ff */
+  --color-primary-500: 169,112,255;           /* #A970FF */
+
+  --color-background-200: 14,12,29;           /* #0E0C1D */ 
+  --color-background-300: 22,18,43;           /* #16122B */
+  --color-background-400: 36,31,71;           /* #241F47 */
+  --color-background-500: 51,35,82;           /* #332352 */
+  --color-background-600: 57,48,112;          /* #393070 */
+
+  --color-tooltip-background: 255,255,255;    /* #ffffff */
+  --color-tooltip-text: 7,6,14;               /* #07060E */
+
+  --color-text: 211,181,255;                  /* #d3b5ff */
+  --color-caution: 255,0,179;                 /* #ff00b3 */
+  --color-warning: 255,0,72;                  /* #ff0048 */
+  --color-active: 4,194,156;                  /* #04c29c */
+
+  --color-docker: 13,198,255;           /* #0dc6ff */
+  --color-firewall: 235,79,52;           /* #eb4f34 */
+
+  --color-100mbps:   242,99,165;                /* #f263a5 */
+  --color-1000mbps:   67,97,238;                 /* #4361ee */
+  --color-10000mbps:  76,201,240;                /* #4cc9f0 */
+  --color-100000mbps: 187,255,255;            /* #bbffff*/ 
+}
+
+.theme-galaxy {
+    --color-primary-300: 111,0,255;          /* #6f00ff */       /* Main Color */
+    --color-primary-400: 129,79,255;         /* #814fff */
+    --color-primary-500: 25,2,55;            /* #190237 */
+	
+    --color-background-200: 0,0,43;          /* #00002b */
+    --color-background-300: 25,2,55;         /* #190237 */
+    --color-background-400: 37,0,107;        /* #25006b */
+    --color-background-500: 25,2,55;         /* #190237 */
+    --color-background-600: 29,77,228;       /* #1d4de4 */
+	
+    --color-tooltip-background: 151,64,220;  /* #9740dc */
+    --color-tooltip-text: 255,255,255;       /* #ffffff */
+	
+    --color-text: 255,255,255;               /* #ffffff */
+    --color-caution: 225,0,216;              /* #e100d8 */
+    --color-warning: 59,77,228;              /* #3b4de4 */
+    --color-active: 39,229,254;              /* #27e5fe */
+  
+    --color-docker: 13,198,255;           /* #0dc6ff */
+    --color-firewall: 235,79,52;           /* #eb4f34 */
+	
+    --color-100mbps: var(--color-warning);
+    --color-1000mbps: var(--color-active);
+    --color-10000mbps: 190,50,150;           /* #be3296 */
+    --color-100000mbps: 255,0,216;           /* #ff00d8 */
+}
+
+.drag {
+  -webkit-app-region: drag;
+}
+
+.no-drag {
+  -webkit-app-region: no-drag;
+}
