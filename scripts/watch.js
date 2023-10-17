@@ -73,7 +73,7 @@ const setupMainPackageWatcher = (viteDevServer) => {
 				spawnProcess = null;
 			}
 
-			spawnProcess = spawn(String(electronPath), ["."]);
+			spawnProcess = spawn(String(electronPath), ["--no-sandbox", "."]);
 
 			spawnProcess.stdout.on("data", d => d.toString().trim() && logger.warn(d.toString(), { timestamp: true }));
 			spawnProcess.stderr.on("data", (d) => {
