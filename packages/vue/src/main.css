@@ -1,7 +1,7 @@
-.theme-dark {
-  --color-primary-300: 173,133,255;          /* #ad85ff */       /* Main Color */
-  --color-primary-400: 131,69,255;           /* #8345ff */
-  --color-primary-500: 86,3,252;             /* #5603fc */
+.theme-atomix {
+  --color-primary-300: 190,248,214;          /* #bef8d6 */       /* Main Color */
+  --color-primary-400: 150,196,169;          /* #96c4a9 */
+  --color-primary-500: 110,145,125;          /* #6e917d */
 
   --color-background-200: 11,14,19;          /* #0b0e13 */
   --color-background-300: 15,19,25;          /* #0F1319 */
@@ -26,7 +26,7 @@
   --color-100000mbps: 187,255,255;           /* #e5ffff */ 
 }
 
-.theme-nord {
+.theme-aether {
   --color-primary-300: 129,161,193;          /* #81a1c1 */       /* Main Color */
   --color-primary-400: 129,161,193;          /* #81A1C1 */
   --color-primary-500: 94,129,172;           /* #5E81AC */
@@ -54,7 +54,7 @@
   --color-100000mbps: 236,239,244;           /* #ECEFF4 */ 
 }
 
-.theme-opera {
+.theme-nandayo {
   --color-primary-300: 194,153,255;           /* #c299ff */       /* Main Color */
   --color-primary-400: 183,135,255;           /* #b787ff */
   --color-primary-500: 169,112,255;           /* #A970FF */
@@ -82,7 +82,7 @@
   --color-100000mbps: 187,255,255;            /* #bbffff*/ 
 }
 
-.theme-galaxy {
+.theme-desire {
   --color-primary-300: 255,51,240;            /* #ff33f0 */       /* Main Color */
   --color-primary-400: 255,50,212;            /* #ff32d4 */
   --color-primary-500: 178,34,148;            /* #b22294 */

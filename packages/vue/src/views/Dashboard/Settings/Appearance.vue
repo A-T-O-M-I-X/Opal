@@ -4,7 +4,7 @@
     Appearance & Aesthetics
   </p>
   <option-field label="Theme" description="Change the theme of the app">
-    <base-dropdown v-model="state.settings.general.theme" stay-open :options="['dark', 'nord', 'opera', 'galaxy']" />
+    <base-dropdown v-model="state.settings.general.theme" stay-open :options="['atomix', 'nandayo', 'desire', 'aether']" />
   </option-field>
 
   <option-field new-feature label="Label Scaling" description="Change how big the labels are">

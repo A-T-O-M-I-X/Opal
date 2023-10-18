@@ -45,7 +45,7 @@ const defineMachineCommands = (machines: IMachine[]): CommandPalleteOption[] => 
 };
 
 export const commandPaletteOptions = computed<CommandPalleteOption[]>(() => ([
-	...defineThemeCommands(["nord", "dark", "opera", "galaxy"]),
+	...defineThemeCommands(["atomix", "nandayo", "desire", "aether"]),
 	...defineMachineCommands(state.machines.getAll()),
 	defineOption(
 		() => isElectron() ? nodeEmit("refresh") : location.reload(),
