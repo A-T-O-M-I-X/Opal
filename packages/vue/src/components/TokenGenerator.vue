@@ -62,7 +62,7 @@
         Token will expire in {{ expiresIn }}s
       </p>
 
-      <base-link href="https://github.com/A-T-O-M-X/opal-connector#-installation">
+      <base-link href="https://github.com/A-T-O-M-I-X/opal-connector#-installation">
         What to do?
       </base-link>
     </div>
