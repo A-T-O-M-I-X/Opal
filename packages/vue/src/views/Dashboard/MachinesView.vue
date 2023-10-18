@@ -13,12 +13,12 @@ import TopBar from "/@/components/TopBar.vue";
 onMounted(() => {
 	useDiscord().updatePresence({
 		state: "Monitoring Machines",
-		largeImageKey: "opal",
+		largeImageKey: "main_logo",
 		largeImageText: "Opal Cloud",
 		buttons: [
 			{
 				label: "Website",
-				url: "http://opal.atomix.one",
+				url: "https://Opal.atomix.one",
 			},
 			{
 				label: "GitHub",
