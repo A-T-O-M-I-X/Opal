@@ -2,7 +2,7 @@ import type { Presence } from "discord-rpc";
 import { Client } from "discord-rpc";
 
 export class DiscordRPC {
-	public CLIENT_ID = "942200099801538600";
+	public CLIENT_ID = "1164205248915705886";
 	public client = new Client({ transport: "ipc" });
 	constructor() {
 		this.client.on("ready", () => {

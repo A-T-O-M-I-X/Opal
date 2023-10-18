@@ -13,20 +13,13 @@ export class Discord {
 		nodeEmit("rpc-clear");
 	}
 
-	public setCurrentlyWatchingMachine(machine: IMachine) {
+	/* public setCurrentlyWatchingMachine(machine: IMachine) {
 		this.updatePresence({
 			state: machine.os_name?.replaceAll("'", ""),
 			details: machine.name,
-			largeImageKey: machine.os_name ? getMachineOsImageKey(machine.os_name) : "main_logo",
+			largeImageKey: "opal",
 			largeImageText: machine.os_name,
-			smallImageKey: "viewing",
-			smallImageText: `Viewing ${machine.name}`,
-			buttons: [
-				{
-					label: "See Machine",
-					url: `https://Opal.atomix.one/#/dashboard/machines/machine/${machine.uuid}`,
-				},
-			],
+
 		});
-	}
+	} */
 }
