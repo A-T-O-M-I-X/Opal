@@ -13,7 +13,7 @@ export class Discord {
 		nodeEmit("rpc-clear");
 	}
 
-	public setCurrentlyWatchingMachine(machine: IMachine) {
+	/* public setCurrentlyWatchingMachine(machine: IMachine) {
 		this.updatePresence({
 			state: "Monitoring Machines",
 			largeImageKey: "opal",
@@ -29,5 +29,5 @@ export class Discord {
 				},
 			],
 		});
-	}
+	} */
 }

@@ -18,7 +18,7 @@ onMounted(() => {
 		buttons: [
 			{
 				label: "Website",
-				url: "https://Opal.atomix.one",
+				url: "http://opal.atomix.one",
 			},
 			{
 				label: "GitHub",
