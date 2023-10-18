@@ -1,10 +1,14 @@
-![Logo](https://cdn.discordapp.com/attachments/755597803102928966/967382192038752287/logo.svg)
+
 
 # Client
 The frontend client that users will use to interface with their machines
-![Opal Dashboard](https://cdn.discordapp.com/attachments/755597803102928966/967081948939944006/unknown.png)
-![Opal Client](https://cdn.discordapp.com/attachments/755597803102928966/951413381615726632/unknown.png)
-![Opal Settings](https://cdn.discordapp.com/attachments/667464431562653706/962395544255356938/unknown.png)
+![Opal Dashboard](https://cdn.discordapp.com/attachments/864388121219170324/1164175597447159860/image.png)
+![Opal Client](https://cdn.discordapp.com/attachments/864388121219170324/1164175711372836916/image.png)
+
+# Themes & Settings
+
+![Opal Themes](https://cdn.discordapp.com/attachments/864388121219170324/1164175982756892752/image.png)
+![Opal Settings](https://cdn.discordapp.com/attachments/864388121219170324/1164176166198988860/image.png)
 
 # Installation & Contributing
 
