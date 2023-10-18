@@ -23,7 +23,7 @@ const sharedConfig = {
 /** Messages on stderr that match any of the contained patterns will be stripped from output */
 const stderrFilterPatterns = [
 	// warning about devtools extension
-	// https://github.com/cawa-93/xornet/issues/492
+	// https://github.com/cawa-93/Opal/issues/492
 	// https://github.com/MarshallOfSound/electron-devtools-installer/issues/143
 	/ExtensionLoadWarning/,
 ];

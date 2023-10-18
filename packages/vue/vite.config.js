@@ -39,12 +39,12 @@ export default defineConfig({
 			registerType: "autoUpdate",
 			includeAssets: ["favicon.svg", "favicon.ico", "robots.txt", "apple-touch-icon.png"],
 			manifest: {
-				id: "xornet.cloud",
-				name: "Xornet Cloud",
-				short_name: "Xornet",
+				id: "Opal.cloud",
+				name: "Opal Cloud",
+				short_name: "Opal",
 				start_url: "https://otiskujawa.net/xornet/#/dashboard/machines",
 				display: "standalone",
-				description: "Xornet Dashboard",
+				description: "Opal Dashboard",
 				theme_color: "#010409",
 				icons: [
 					{

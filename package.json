@@ -1,13 +1,13 @@
 {
-  "name": "xornet",
+  "name": "Opal",
   "private": true,
   "engines": {
     "node": ">=18.0.0",
     "npm": ">=8.1"
   },
-  "description": "Xornet is a management dashboard for people to easily view & control their servers from anywhere in the world!",
+  "description": "Opal is a management dashboard for people to easily view & control their servers from anywhere in the world!",
   "author": {
-    "name": "Xornet Cloud",
+    "name": "Opal Cloud",
     "url": "https://github.com/otiskujawa/xornet_client_epic_fork"
   },
   "main": "packages/electron/dist/index.cjs",

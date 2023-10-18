@@ -27,12 +27,12 @@
     <base-tooltip :text="copied ? 'Copied!' : 'Click to copy!'" placement="bottom">
       <div
         class="copyButton"
-        @click="copy('curl https://raw.githubusercontent.com/otiskujawa/Reporter/main/scripts/install.sh | sudo bash')"
+        @click="copy('curl https://raw.githubusercontent.com/otiskujawa/Connector/main/scripts/install.sh | sudo bash')"
       >
         <p
           class="text-left"
         >
-          <strong class="text-primary-400">$ </strong> curl https://raw.githubusercontent.com/otiskujawa/Reporter/main/scripts/install.sh | sudo bash
+          <strong class="text-primary-400">$ </strong> curl https://raw.githubusercontent.com/otiskujawa/Connector/main/scripts/install.sh | sudo bash
         </p>
       </div>
     </base-tooltip>
@@ -42,14 +42,14 @@
     <base-tooltip :text="copied ? 'Copied!' : 'Click to copy!'" placement="bottom">
       <div
         class="copyButton"
-        @click="copy('Set-ExecutionPolicy RemoteSigned -Scope CurrentUser \niwr -useb get.scoop.sh | iex \nscoop install https://raw.githubusercontent.com/otiskujawa/Reporter/main/scripts/xornet-reporter.json')"
+        @click="copy('Set-ExecutionPolicy RemoteSigned -Scope CurrentUser \niwr -useb get.scoop.sh | iex \nscoop install https://raw.githubusercontent.com/otiskujawa/Connector/main/scripts/opal-connector.json')"
       >
         <p
           class="text-left"
         >
           <strong class="text-primary-400">> </strong> Set-ExecutionPolicy RemoteSigned -Scope CurrentUser <br>
           <strong class="text-primary-400">> </strong> iwr -useb get.scoop.sh | iex <br>
-          <strong class="text-primary-400">> </strong> scoop install "https://raw.githubusercontent.com/otiskujawa/Reporter/main/scripts/xornet-reporter.json"
+          <strong class="text-primary-400">> </strong> scoop install "https://raw.githubusercontent.com/otiskujawa/Reporter/main/scripts/opal-connector.json"
         </p>
       </div>
     </base-tooltip>

@@ -14,15 +14,15 @@ onMounted(() => {
 	useDiscord().updatePresence({
 		state: "Monitoring Machines",
 		largeImageKey: "main_logo",
-		largeImageText: "Xornet Cloud",
+		largeImageText: "Opal Cloud",
 		buttons: [
 			{
 				label: "Website",
-				url: "https://xornet.atomix.one",
+				url: "https://Opal.atomix.one",
 			},
 			{
 				label: "GitHub",
-				url: "https://github.com/A-T-O-M-I-X/xornet",
+				url: "https://github.com/A-T-O-M-I-X/Opal",
 			},
 		],
 	});

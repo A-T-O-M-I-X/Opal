@@ -43,7 +43,7 @@
       <div class="px-2">
         <div class="h-1px bg-background-500 w-full" />
       </div>
-      <navigation-button name="Github Repository" href="https://github.com/A-T-O-M-I-X/xornet">
+      <navigation-button name="Github Repository" href="https://github.com/A-T-O-M-I-X/Opal">
         <i-fluency-github class="icon" />
       </navigation-button>
       <!-- <navigation-button name="API Status" href="https://xornet.statuspage.io/">

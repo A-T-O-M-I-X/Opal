@@ -42,7 +42,7 @@ const createWindow = async() => {
 		minWidth: 400,
 		width: 1100,
 		vibrancy: "dark",
-		title: "Xornet",
+		title: "Opal",
 		webPreferences: {
 			webSecurity: true,
 			nativeWindowOpen: true,

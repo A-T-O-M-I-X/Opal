@@ -5,7 +5,7 @@
         <base-input v-model="form.username" placeholder="Username" type="username" />
         <base-input v-model="form.password" placeholder="Password" type="password" autocomplete="password" />
         <p class="">
-          New to Xornet?
+          New to Opal?
           <base-link to="signup">
             Create new account
           </base-link>

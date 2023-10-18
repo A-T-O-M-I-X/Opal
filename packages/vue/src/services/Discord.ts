@@ -24,7 +24,7 @@ export class Discord {
 			buttons: [
 				{
 					label: "See Machine",
-					url: `https://xornet.atomix.one/#/dashboard/machines/machine/${machine.uuid}`,
+					url: `https://Opal.atomix.one/#/dashboard/machines/machine/${machine.uuid}`,
 				},
 			],
 		});
