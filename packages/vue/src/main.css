@@ -83,31 +83,31 @@
 }
 
 .theme-galaxy {
-    --color-primary-300: 111,0,255;           /* #6f00ff */       /* Main Color */
-    --color-primary-400: 129,79,255;          /* #814fff */
-    --color-primary-500: 25,2,55;             /* #190237 */
-	
-    --color-background-200: 0,0,43;           /* #00002b */
-    --color-background-300: 25,2,55;          /* #190237 */
-    --color-background-400: 37,0,107;         /* #25006b */
-    --color-background-500: 25,2,55;          /* #190237 */
-    --color-background-600: 29,77,228;        /* #1d4de4 */
-	
-    --color-tooltip-background: 151,64,220;   /* #9740dc */
-    --color-tooltip-text: 255,255,255;        /* #ffffff */
-	
-    --color-text: 255,255,255;                /* #ffffff */
-    --color-caution: 225,0,216;               /* #e100d8 */
-    --color-warning: 59,77,228;               /* #3b4de4 */
-    --color-active: 39,229,254;               /* #27e5fe */
+  --color-primary-300: 255,51,240;            /* #ff33f0 */       /* Main Color */
+  --color-primary-400: 255,50,212;            /* #ff32d4 */
+  --color-primary-500: 178,34,148;            /* #b22294 */
+
+  --color-background-200: 11,14,19;          /* #0b0e13 */
+  --color-background-300: 15,19,25;          /* #0F1319 */
+  --color-background-400: 24,29,37;          /* #181D25 */
+  --color-background-500: 35,41,49;          /* #232931 */
+  --color-background-600: 42,48,56;          /* #2A3038 */
+
+  --color-tooltip-background: 255, 255, 255; /* #ffffff */
+  --color-tooltip-text: 1,4,9;               /* #010409 */
+
+  --color-text: 255, 255, 255;               /* #ffffff */
+  --color-caution: 255, 0, 122;              /* #ff007a */
+  --color-warning: 255,168,0;                /* #FFA800 */
+  --color-active: 0,255,103;                 /* #00ff67 */
   
-    --color-docker: 13,198,255;               /* #0dc6ff */
-    --color-firewall: 235,79,52;              /* #eb4f34 */
-	
-    --color-100mbps: var(--color-warning);
-    --color-1000mbps: var(--color-active);
-    --color-10000mbps: 190,50,150;            /* #be3296 */
-    --color-100000mbps: 255,0,216;            /* #ff00d8 */
+  --color-docker: 13,198,255;                /* #0dc6ff */
+  --color-firewall: 235,79,52;               /* #eb4f34 */
+
+  --color-100mbps: var(--color-warning);
+  --color-1000mbps: var(--color-active);
+  --color-10000mbps: 0,255,238;              /* #00ffee */ 
+  --color-100000mbps: 187,255,255;           /* #e5ffff */ 
 }
 
 .drag {
