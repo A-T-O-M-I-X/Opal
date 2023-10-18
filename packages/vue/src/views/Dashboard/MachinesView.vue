@@ -13,7 +13,7 @@ import TopBar from "/@/components/TopBar.vue";
 onMounted(() => {
 	useDiscord().updatePresence({
 		state: "Monitoring Machines",
-		largeImageKey: "main_logo",
+		largeImageKey: "opal",
 		largeImageText: "Opal Cloud",
 		buttons: [
 			{

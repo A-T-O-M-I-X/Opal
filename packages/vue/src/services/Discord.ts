@@ -15,16 +15,17 @@ export class Discord {
 
 	public setCurrentlyWatchingMachine(machine: IMachine) {
 		this.updatePresence({
-			state: machine.os_name?.replaceAll("'", ""),
-			details: machine.name,
-			largeImageKey: machine.os_name ? getMachineOsImageKey(machine.os_name) : "main_logo",
-			largeImageText: machine.os_name,
-			smallImageKey: "viewing",
-			smallImageText: `Viewing ${machine.name}`,
+			state: "Monitoring Machines",
+			largeImageKey: "opal",
+			largeImageText: "Opal Cloud",
 			buttons: [
 				{
-					label: "See Machine",
-					url: `https://Opal.atomix.one/#/dashboard/machines/machine/${machine.uuid}`,
+					label: "Website",
+					url: "https://Opal.atomix.one",
+				},
+				{
+					label: "GitHub",
+					url: "https://github.com/A-T-O-M-I-X/Opal",
 				},
 			],
 		});
