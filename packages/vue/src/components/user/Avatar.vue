@@ -11,7 +11,7 @@
 <script setup lang="ts">
 import { computed } from "vue";
 import type { IUser } from "/@/types/api/user";
-const defaultAvatar = "https://cdn.discordapp.com/attachments/864388121219170324/1164157374181937152/Opal.png";
+const defaultAvatar = "https://cdn.discordapp.com/attachments/1164440882594975784/1164448139940474940/Opal-Cloud_Vibrance.png";
 const props = defineProps<{
 	user?: IUser
 	url?: string
