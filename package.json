@@ -63,7 +63,7 @@
     "bloatware": "^1.0.0",
     "discord-rpc": "^4.0.1",
     "electron-updater": "4.6.5",
-    "mitt": "^3.0.0",
+    "mitt": "^3.0.1",
     "pako": "^2.0.4",
     "vite-plugin-pwa": "^0.11.12",
     "vue": "3.2.26",
