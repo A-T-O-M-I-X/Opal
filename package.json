@@ -57,7 +57,7 @@
     "windicss": "^3.4.0"
   },
   "dependencies": {
-    "@floating-ui/core": "^0.2.2",
+    "@floating-ui/core": "^0.7.3",
     "@floating-ui/dom": "^0.1.8",
     "@vueuse/core": "^7.4.1",
     "bloatware": "^1.0.0",
