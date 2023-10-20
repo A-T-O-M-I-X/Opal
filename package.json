@@ -58,7 +58,7 @@
   },
   "dependencies": {
     "@floating-ui/core": "^0.2.2",
-    "@floating-ui/dom": "^0.1.8",
+    "@floating-ui/dom": "^0.5.4",
     "@vueuse/core": "^7.4.1",
     "bloatware": "^1.0.0",
     "discord-rpc": "^4.0.1",
